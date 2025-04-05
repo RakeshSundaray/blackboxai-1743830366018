@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - ZeptoNow Replica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-[Poppins]">
+    <!-- Navigation (same as index.html) -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="text-2xl font-bold text-green-600">ZeptoNow</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-green-600">Home</a>
+                    <a href="services.html" class="hover:text-green-600">Services</a>
+                    <a href="products.html" class="hover:text-green-600">Products</a>
+                    <a href="contact.html" class="hover:text-green-600">Contact</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hover:text-green-600"><i class="fas fa-search"></i></a>
+                <a href="#" class="hover:text-green-600"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">Sign In</a>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold mb-12 text-center">Our Services</h1>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 text-4xl mb-4"><i class="fas fa-bolt"></i></div>
+                    <h2 class="text-2xl font-semibold mb-3">30-Minute Delivery</h2>
+                    <p class="text-gray-600">Get your groceries delivered in just 30 minutes from order time.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 text-4xl mb-4"><i class="fas fa-headset"></i></div>
+                    <h2 class="text-2xl font-semibold mb-3">24/7 Support</h2>
+                    <p class="text-gray-600">Our customer service team is available round the clock.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-green-600 text-4xl mb-4"><i class="fas fa-gift"></i></div>
+                    <h2 class="text-2xl font-semibold mb-3">Rewards Program</h2>
+                    <p class="text-gray-600">Earn points on every purchase and redeem exciting rewards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (will be consistent across all pages) -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Footer sections would go here -->
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2023 ZeptoNow Replica. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
